@@ -1,0 +1,12 @@
+name: Daniel
+super: true
+id: b141494b-e83e-47e7-9764-f2f9777af861
+password_hash: $2y$10$sEe1hve3Zj1m0N8jSJQvmewn.s129N/H8lMHd2eLxxDGD9QrdWn86
+preferences:
+  favorites:
+    -
+      name: 'Cache Manager'
+      url: utilities/cache
+    -
+      name: Home
+      url: collections/pages/entries/home
