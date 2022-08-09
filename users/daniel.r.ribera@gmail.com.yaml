@@ -10,3 +10,6 @@ preferences:
     -
       name: Home
       url: collections/pages/entries/home
+  collections:
+    pages:
+      after_save: continue_editing
