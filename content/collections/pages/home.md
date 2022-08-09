@@ -4,7 +4,7 @@ blueprint: pages
 title: Home
 template: home
 updated_by: b141494b-e83e-47e7-9764-f2f9777af861
-updated_at: 1659987083
+updated_at: 1660011733
 features:
   -
     title: Work
@@ -21,7 +21,7 @@ features:
     desc: 'We love to help those who need renovations to fit specific needs.'
     icon: svg/ada.svg
     color: '#FFFFFF'
-hero: pexels-tima-miroshnichenko-6790082.jpg
+hero: hero.jpg
 logo: logo-hero.png
 published: true
 ---
