@@ -1,3 +1,6 @@
+// const { transparent } = require('tailwindcss/colors')
+// const color = require('tailwindcss/color')
+
 module.exports = {
   content: [
     './resources/**/*.antlers.html',

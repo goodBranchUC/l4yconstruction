@@ -4,7 +4,7 @@ blueprint: pages
 title: Home
 template: home
 updated_by: b141494b-e83e-47e7-9764-f2f9777af861
-updated_at: 1660011733
+updated_at: 1660069194
 features:
   -
     title: Work
@@ -21,8 +21,8 @@ features:
     desc: 'We love to help those who need renovations to fit specific needs.'
     icon: svg/ada.svg
     color: '#FFFFFF'
-hero: hero.jpg
 logo: logo-hero.png
+hero: home-hero-1660069190.jpg
 published: true
 ---
 dfghjfgh

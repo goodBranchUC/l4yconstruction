@@ -1,0 +1,42 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          character_limit: 120
+          antlers: false
+      -
+        handle: photos
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 20
+          display: Photos
+          type: assets
+          icon: assets
+          instructions: "Photo's of individual projects done."
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+title: Project

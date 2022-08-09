@@ -4,6 +4,7 @@ blueprint: pages
 title: About
 template: about
 updated_by: b141494b-e83e-47e7-9764-f2f9777af861
-updated_at: 1659969516
+updated_at: 1660055297
+hero: normslake.jpg
 published: true
 ---
