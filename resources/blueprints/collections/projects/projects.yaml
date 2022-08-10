@@ -44,6 +44,18 @@ sections:
           instructions: 'First photo shown. Typically the photo after the project is finished.'
           max_files: 1
       -
+        handle: description
+        field:
+          input_type: text
+          character_limit: 160
+          antlers: false
+          display: Description
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: gallery
         field:
           mode: grid
