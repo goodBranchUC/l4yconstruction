@@ -1,0 +1,33 @@
+<section>
+    <div class="bg-white overflow-hidden">
+        <img class="h-[32rem] w-full object-cover object-top" src="{{ glide:hero width="720" height="480" }}" >
+        
+    </div>
+</section>
+  
+<div class="max-w-7xl mx-auto mt-3 px-4">
+    <header class="mb-8">
+        <h1 class="text-2xl font-bold">Our Projects</h1>
+        <p class="text-base text gray-600">Let us do your next project.</p>
+    </header>
+<ul role="list" class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+    
+    {{ collection:projects }}
+    <li class="relative">
+        <a href="{{ url }}">
+            <div class="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-orange-500 overflow-hidden">
+                {{ assets:photos }}
+                <img src="{{ glide:url width="720" height="480" }}">
+                {{ /assets:photos }}
+                <button type="button" class="absolute inset-0 focus:outline-none">
+                <span class="sr-only">{{ title }}</span>
+                </button>
+            </div>
+            <p class="mt-2 block text-sm font-medium text-gray-900 font-bold truncate pointer-events-none">{{ title }}</p>
+            <p class="block text-sm font-medium text-gray-700 pointer-events-none">{{ description }}</p>
+        </a>
+        </li>
+    {{ /collection:projects }}
+    
+</ul>
+ </div>

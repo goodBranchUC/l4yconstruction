@@ -39,4 +39,11 @@ sections:
         field:
           type: slug
           localizable: true
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+          validate:
+            - required
 title: Project
