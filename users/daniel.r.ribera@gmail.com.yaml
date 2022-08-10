@@ -10,11 +10,14 @@ preferences:
     -
       name: Home
       url: collections/pages/entries/home
+    -
+      name: 'Project Blueprint'
+      url: collections/projects/blueprints/projects/edit
   collections:
     pages:
       after_save: continue_editing
     projects:
       columns:
-        - slug
         - title
-        - photos
+        - slug
+        - feature_photo

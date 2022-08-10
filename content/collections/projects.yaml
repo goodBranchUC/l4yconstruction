@@ -1,6 +1,7 @@
 title: Projects
-template: our_work/show
+template: projects/show
 layout: layout
+mount: 12946a6c-cc9f-4148-bc95-c029a132847e
 revisions: false
 route: '/projects/{slug}'
 date: true

@@ -16,15 +16,43 @@ sections:
           character_limit: 120
           antlers: false
       -
-        handle: photos
+        handle: template
+        field:
+          hide_partials: true
+          blueprint: false
+          display: Template
+          type: template
+          icon: template
+          instructions: 'Choose projects/show'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: feature_photo
         field:
           mode: list
           container: assets
           restrict: false
           allow_uploads: true
           show_filename: true
+          display: 'Feature Photo'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          instructions: 'First photo shown. Typically the photo after the project is finished.'
+          max_files: 1
+      -
+        handle: gallery
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
           max_files: 20
-          display: Photos
+          display: Gallery
           type: assets
           icon: assets
           instructions: "Photo's of individual projects done."

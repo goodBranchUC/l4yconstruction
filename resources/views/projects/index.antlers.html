@@ -16,9 +16,9 @@
     <li class="relative">
         <a href="{{ url }}">
             <div class="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-orange-500 overflow-hidden">
-                {{ assets:photos }}
-                <img src="{{ glide:url width="720" height="480" }}">
-                {{ /assets:photos }}
+                <!-- {{ assets:photos }} -->
+                <img src="{{ glide:feature_photo width="720" height="480" }}">
+                <!-- {{ /assets:photos }} -->
                 <button type="button" class="absolute inset-0 focus:outline-none">
                 <span class="sr-only">{{ title }}</span>
                 </button>
