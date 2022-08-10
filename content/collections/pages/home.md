@@ -4,7 +4,7 @@ blueprint: pages
 title: Home
 template: home
 updated_by: b141494b-e83e-47e7-9764-f2f9777af861
-updated_at: 1660069194
+updated_at: 1660088365
 features:
   -
     title: Work
@@ -24,5 +24,6 @@ features:
 logo: logo-hero.png
 hero: home-hero-1660069190.jpg
 published: true
+shape: polygon-small.png
 ---
 dfghjfgh
