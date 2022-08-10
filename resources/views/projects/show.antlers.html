@@ -1,48 +1,26 @@
-<section>
-    <!-- <div class="bg-white overflow-hidden">
-        <img class="h-[32rem] w-full object-cover object-top" src="{{ glide:hero width="720" height="480" }}" >
-        
-    </div> -->
-</section>
-  
-<div class="max-w-7xl mx-auto mt-8 px-4">
-    <header class="mb-12 mt-9">
-        <h1 class="text-3xl font-extrabold font-serif text-[#A78C51]">{{ description }}</h1>
-        <!-- <p class="text-2xl text-[#A78C51]">Let us do your next project.</p> -->
-    </header>
-    <ul role="list" class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
-        {{ gallery }}
-        <li class="relative">
-            <a href="{{ url }}">
-                <div class="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-orange-500 overflow-hidden">
-                    <!-- {{ assets:photos }} -->
-                    <img src="{{ glide:url width="720" height="480" }}" class="transform hover:opacity-50 hover:border-[#634321] duration-1000 delay-75">
-                    <!-- {{ /assets:photos }} -->
-                    <!-- <button type="button" class="absolute inset-0 focus:outline-none">
-                    <span class="sr-only">{{ title }}</span> -->
-                    </button>
-                </div>
-                <!-- <p class="mt-2 block text-md font-medium text-[#264027] truncate pointer-events-none">{{ title }}</p> -->
-            </a>
-            </li>
-            {{ /gallery }}
-    </ul>
+<div class="bg-white overflow-hidden object-center justify-cente">
+    <div class="relative bg-gradient-to-b from-amber-50 to-white text-center py-16 sm:py-24 lg:py-32 -mt-16">
+        <p class="text-3xl font-extrabold text-[#634321] sm:text-4xl font-serif">{{ desc }}</p>
+        <div class="bg-transparent mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+            
+            <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500"></p>
+            <div class="mt-12">
+                <div class="max-w-7xl mx-auto mt-8 px-4">
+                    <ul role="list" class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+                        {{ gallery }}
+                            <li class="relative">
+                                <a href="{{ url }}">
+                                    <div class="group block w-full aspect-w-30 aspect-h-30 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-orange-500 overflow-hidden">
+                                        
+                                        <img src="{{ glide:url width="1200" height="1200" }}" class="transform hover:opacity-50 hover:border-[#634321] duration-1000 delay-75">
+                                    
+                                    </div>
+                                </a>
+                            </li>
+                        {{ /gallery }}
+                    </ul>
+                </div>        
+            </div>
+        </div>
+    </div>        
 </div>
-
-
-<!-- <div class="max-w-7xl mx-auto px-4">
-    <header class="mb-10">
-    <h1 class="text-2xl font-bold">{{ title }}</h1>
-    <p class="text-base text gray-600">{{ description }}</p>
-    </header>
-<ul role="list" class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
-    
-    {{ assets:gallery }}
-  
-    <img src="{{ glide:url width="720" height="480"}}" >
-    <h1 class="text-2xl font-bold">{{ title }}</h1>
-    {{ /assets:gallery }}
-    
-</ul>
-</div>
-   -->

@@ -44,7 +44,7 @@ sections:
           instructions: 'First photo shown. Typically the photo after the project is finished.'
           max_files: 1
       -
-        handle: description
+        handle: desc
         field:
           input_type: text
           character_limit: 160
