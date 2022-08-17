@@ -4,7 +4,7 @@ blueprint: pages
 title: Home
 template: home
 updated_by: b141494b-e83e-47e7-9764-f2f9777af861
-updated_at: 1660600389
+updated_at: 1660619048
 features:
   -
     title: Work
@@ -24,5 +24,7 @@ features:
 logo: logo-hero.png
 hero: home-hero-1660069190.jpg
 shape: polygon-small.png
+main_content: 'With an emphasis on quality, and punctiality.'
+sub_content: 'We build, renovate, and repair any residential, commercial or government space.'
 published: true
 ---

@@ -1,0 +1,38 @@
+<!--features-->
+<section id="features">
+
+    <div class="relative bg-white py-16 sm:py-24 lg:py-32">
+        <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+          <p class="mt-2 text-3xl font-extrabold font-serif tracking-tight text-lightBrown sm:text-4xl">Everything you need under one name</p>
+          <p class="mx-auto mt-5 max-w-prose text-xl text-darkBrown"> We are a full service general contractor. Our goal is to complete your project in a safe, expedited and professional manner.</p>
+          
+          <!-- cards -->
+         
+          <div class="mt-12">
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    
+              {{ features }}
+              
+              <div class="pt-6">
+                <div class="flow-root rounded-lg bg-amber-50 px-6 pb-8">
+                  <div class="-mt-6">
+                    <div>
+                      <span class="inline-flex items-center justify-center rounded-md bg-amber-100 p-3 shadow-lg">
+                    
+                        {{ svg src="{icon}" class="h-6 w-6" fill="white" }}
+                     
+                      </span>
+                    </div>
+                    <h3 class="mt-8 text-lg font-medium tracking-tight text-darkBrown">{{ title }}</h3>
+                    <p class="mt-5 text-base text-zinc-500">{{ desc }}</p>
+                  </div>
+                </div>
+              </div>
+    
+              {{ /features }}
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>

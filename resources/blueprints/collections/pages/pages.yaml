@@ -17,17 +17,24 @@ sections:
           display: Template
           localizable: true
       -
-        handle: content
+        handle: main_content
         field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
+          input_type: text
           antlers: false
-          display: Content
-          type: markdown
-          icon: markdown
+          display: 'Main Content'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: sub_content
+        field:
+          input_type: text
+          antlers: false
+          display: 'Sub Content'
+          type: text
+          icon: text
           listable: hidden
           instructions_position: above
           visibility: visible

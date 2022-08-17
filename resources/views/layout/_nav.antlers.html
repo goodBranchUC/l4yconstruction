@@ -1,0 +1,16 @@
+<nav class="relative container mx-auto p-0">
+    <!-- flex contaner -->
+    <div class="flex items-center justify-between">
+        <div class="pt-2">
+            <img class="h-[8rem] pt-4 w-auto" src="assets/logo-hero.png" alt="l4yconstruction">
+        </div>
+        <!-- menu -->
+        <div class="hidden md:flex space-x-12 pr-6">
+            {{ nav:collection:pages include_home="true" }}
+            <a href="{{ url }}" class="font-semibold text-lightBrown hover:text-darkBrown px-3 py-2 text-lg transition-colors duration-1000 delay-50 
+            {{ is_current ?= 'text-darkGreen font-bold' }} ">{{ title }}</a>
+            {{ /nav:collection:pages }}
+        </div>
+
+    </div>
+</nav>
