@@ -719,6 +719,12 @@ video {
 }
 
 
+.mx-0{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -959,6 +965,16 @@ video {
 }
 
 
+.max-w-\[526px\]{
+  max-width: 526px;
+}
+
+
+.max-w-\[482px\]{
+  max-width: 482px;
+}
+
+
 .max-w-prose{
   max-width: 65ch;
 }
@@ -1160,6 +1176,11 @@ video {
 }
 
 
+.border-0{
+  border-width: 0px;
+}
+
+
 .border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -1245,6 +1266,12 @@ video {
 
 .bg-transparent{
   background-color: transparent;
+}
+
+
+.bg-clrPaleTerquoise{
+  --tw-bg-opacity: 1;
+  background-color: rgb(98 146 158 / var(--tw-bg-opacity));
 }
 
 
@@ -1360,6 +1387,12 @@ video {
 }
 
 
+.px-0{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1461,6 +1494,16 @@ video {
 }
 
 
+.font-Martel{
+  font-family: Martel, serif;
+}
+
+
+.font-Poppins{
+  font-family: Poppins, sans-serif;
+}
+
+
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1514,11 +1557,6 @@ video {
 
 .font-medium{
   font-weight: 500;
-}
-
-
-.font-light{
-  font-weight: 300;
 }
 
 
@@ -1590,12 +1628,6 @@ video {
 }
 
 
-.text-zinc-500{
-  --tw-text-opacity: 1;
-  color: rgb(113 113 122 / var(--tw-text-opacity));
-}
-
-
 .text-zinc-600{
   --tw-text-opacity: 1;
   color: rgb(82 82 91 / var(--tw-text-opacity));
@@ -1605,6 +1637,12 @@ video {
 .text-gray-200{
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+
+.text-zinc-500{
+  --tw-text-opacity: 1;
+  color: rgb(113 113 122 / var(--tw-text-opacity));
 }
 
 
@@ -1623,6 +1661,24 @@ video {
 .text-\[\#634321\]{
   --tw-text-opacity: 1;
   color: rgb(99 67 33 / var(--tw-text-opacity));
+}
+
+
+.text-clrMedBrown{
+  --tw-text-opacity: 1;
+  color: rgb(167 140 81 / var(--tw-text-opacity));
+}
+
+
+.text-clrForestGreen{
+  --tw-text-opacity: 1;
+  color: rgb(40 66 41 / var(--tw-text-opacity));
+}
+
+
+.text-clrLightGray{
+  --tw-text-opacity: 1;
+  color: rgb(245 245 245 / var(--tw-text-opacity));
 }
 
 
@@ -1987,6 +2043,12 @@ video {
   .sm\:py-24{
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+
+  .sm\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 

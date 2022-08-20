@@ -1,7 +1,7 @@
 <!--hero-->
 <section>
-  <div class="relative bg-whitete overflow-hidden">
-    <div class="lg:absolute bg-clrForestGreen lg:inset-y-0 lg:left-0 lg:w-1/2">
+  <div class="relative bg-white overflow-hidden">
+    <div class="lg:absolute bg-clrForestGreen mx-auto lg:inset-y-0 lg:left-0 lg:w-1/2">
       <!-- <img class="h-56 w-full object-cover opacity-30 sm:h-72 md:h-96 lg:w-full lg:h-full" src="{{ heroleft:url }}" alt=""> -->
       
       </div>
@@ -12,24 +12,36 @@
           </svg>
      -->
               <div>
-              <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+              <div class="relative pt-6 px-0 border-0 sm:px-0">
               
               </div>
       
-              <main class="mt-10 mx-auto max-w-[100rem] px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+              <main class="mt-10 max-w-[100rem] px-4 mx-0 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div class="sm:text-center lg:text-left">
-                  <h1 class="text-4xl tracking-tight font-extrabold text-clrLightApricot font sm:text-5xl md:text-6xl">
+                  <h1 class="text-4xl tracking-tight font-extrabold text-clrLightApricot max-w-[526px]
+                   sm:text-5xl md:text-6xl">
                     <span class="block xl:inline font-GreatVibes">{{ main_content }}</span>
-                    <p class="font-light"> -</p>
-                    <span class="block text-zinc-500 text-3xl font-serif">{{ sub_content }}</span>
+                
                   </h1>
-                  <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"> </p>
+                  <br><br>
+                  <h2 class="max-w-[482px]" >
+                    <span class="block font-Martel text-clrLightApricot">{{ sub_content }}</span>
+                  </h2>
+                  <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 
+                  md:text-xl lg:mx-0"> </p>
                   <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div class="rounded-md shadow">
-                      <a href="/contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md drop-shadow-lg transition-colors duration-1000 delay-50 text-white bg-darkGreen hover:bg-lightBrown md:py-4 md:text-lg md:px-10 md:drop-shadow-md"> Get an estimate</a>
+                      <a href="/contact" class="w-full flex items-center justify-center px-8 py-3 border 
+                      border-transparent 
+                      text-base font-medium font-Poppins bg-clrPaleTerquoise rounded-md drop-shadow-lg 
+                      transition-colors 
+                      duration-1000 delay-50 text-clrLightGray md:py-4 md:text-lg md:px-10 md:drop-shadow-md"> Get an estimate</a>
                     </div>
                     <div class="mt-3 sm:mt-0 sm:ml-3">
-                      <a href="/contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md drop-shadow-lg transition-colors duration-1000 delay-50 text-lightBrown bg-white hover:bg-lightBrown hover:text-white md:py-4 md:text-lg md:px-10 md:drop-shadow-md"> Contact </a>
+                      <a href="/contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent 
+                      text-base font-medium font-Poppins bg-white rounded-md drop-shadow-lg transition-colors duration-1000 
+                      delay-50 text-clrMedBrown hover:bg-lightBrown hover:text-white md:py-4 md:text-lg md:px-10 md:drop-shadow-md">
+                       Contact </a>
                     </div>
                   </div>
                 </div>
@@ -37,8 +49,8 @@
           </div>
         </div>
       </div>
-      <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img class="h-56 w-full object-cover pr-12 sm:h-72 md:h-96 lg:w-full lg:h-full" src="{{ hero:url }}" alt="">
+      <div class="lg:absolute lg:inset-y-0 border-0 lg:right-0 lg:w-1/2">
+          <img class="h-56 w-full object-cover border-0 px-0 -mtl-px sm:h-72 md:h-96 lg:w-full lg:h-full" src="{{ hero:url }}" alt="">
           <div class="absolute inset-0 bg-gradient-to-br from-bg-white to-transparent opacity-5"></div>
           <!-- <div class="bg-white">
             {{ assets:shape }}
