@@ -11,7 +11,7 @@ module.exports = {
     fontFamily: {
       'Martel': ['Martel', 'serif'],
       'Poppins': ['Poppins', 'sans-serif'],
-      'Great Vibes': ['Great Vibes', 'cursive'],
+      'GreatVibes': ['Great Vibes', 'cursive'],
     },
     screens: {
       'sm': '640px',
