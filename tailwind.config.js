@@ -8,6 +8,11 @@ module.exports = {
     './content/**/*.md'
   ],
   theme: {
+    fontFamily: {
+      'Martel': ['Martel', 'serif'],
+      'Poppins': ['Poppins', 'sans-serif'],
+      'Great Vibes': ['Great Vibes', 'cursive'],
+    },
     screens: {
       'sm': '640px',
       'md': '768px',
@@ -16,13 +21,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        burgundy: '#2d2d2d',
-        darkBrown: '#634321',
-        lightBrown: '#A78C51',
-        lightTan: '#f5f5f5',
-        veryLightTan: '#f5f5f5',
-        darkGreen: '#264027',
-        apricot: '#f5f5f5',
+        clrPaleTerquoise: '#62929E',
+        clrNiceGray: '#B2A893',
+        clrMedBrown: '#A78C51',
+        clrLightApricot: '#FFFBEB',
+        clrLightGray: '#f5f5f5',
+        clrForestGreen: '#284229',
+        clrWaveGray: '#EDEDE8',
 
     },
   },
