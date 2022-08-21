@@ -690,6 +690,16 @@ video {
 }
 
 
+.left-1{
+  left: 0.25rem;
+}
+
+
+.left-\[130px\]{
+  left: 130px;
+}
+
+
 .z-10{
   z-index: 10;
 }
@@ -1090,6 +1100,16 @@ video {
 }
 
 
+.max-w-\[100p\]{
+  max-width: 100p;
+}
+
+
+.max-w-\[100px\]{
+  max-width: 100px;
+}
+
+
 .flex-shrink-0{
   flex-shrink: 0;
 }
@@ -1144,6 +1164,11 @@ video {
 
 .flex-col{
   flex-direction: column;
+}
+
+
+.flex-col-reverse{
+  flex-direction: column-reverse;
 }
 
 
@@ -1212,6 +1237,27 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(3rem * var(--tw-space-x-reverse));
   margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+
+.space-x-\[\] > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc( * var(--tw-space-x-reverse));
+  margin-left: calc( * calc(1 - var(--tw-space-x-reverse)));
+}
+
+
+.space-x-\[89px\] > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(89px * var(--tw-space-x-reverse));
+  margin-left: calc(89px * calc(1 - var(--tw-space-x-reverse)));
+}
+
+
+.space-x-\[89p\] > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(89p * var(--tw-space-x-reverse));
+  margin-left: calc(89p * calc(1 - var(--tw-space-x-reverse)));
 }
 
 
@@ -1384,6 +1430,12 @@ video {
 .bg-clrLightApricot{
   --tw-bg-opacity: 1;
   background-color: rgb(255 251 235 / var(--tw-bg-opacity));
+}
+
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 
@@ -1588,6 +1640,26 @@ video {
 
 .pr-6{
   padding-right: 1.5rem;
+}
+
+
+.pl-\[130p\]{
+  padding-left: 130p;
+}
+
+
+.pl-\[130px\]{
+  padding-left: 130px;
+}
+
+
+.pb-7{
+  padding-bottom: 1.75rem;
+}
+
+
+.pb-20{
+  padding-bottom: 5rem;
 }
 
 
@@ -1879,6 +1951,12 @@ video {
 .underline{
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+}
+
+
+.overline{
+  -webkit-text-decoration-line: overline;
+          text-decoration-line: overline;
 }
 
 
@@ -2551,6 +2629,16 @@ video {
 
   .lg\:max-w-\[100rem\]{
     max-width: 100rem;
+  }
+
+
+  .lg\:max-w-\[100px\]{
+    max-width: 100px;
+  }
+
+
+  .lg\:max-w-\[100re\]{
+    max-width: 100re;
   }
 
 
