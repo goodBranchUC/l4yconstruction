@@ -1,13 +1,13 @@
-<nav class="relative container max-w-[100rem] mx-auto p-0">
+<nav class="relative container max-w-[100rem] mx-auto h-[105px]">
     <!-- flex contaner -->
     <div class="flex items-center justify-between">
         <div class="pt-2">
-            <img class="h-[8rem] pt-4 w-auto" src="assets/logo-hero.png" alt="l4yconstruction">
+            <img class="h-[12rem] pt-4 w-auto" src="assets/logo-hero.png" alt="l4yconstruction">
         </div>
         <!-- menu -->
         <div class="hidden md:flex space-x-12 pr-6">
             {{ nav:collection:pages include_home="true" }}
-            <a href="{{ url }}" class="font-semibold text-lightBrown hover:text-darkBrown px-3 py-2 text-lg transition-colors duration-1000 delay-50 
+            <a href="{{ url }}" class="font-Poppins font-[400] text-clrForestGreen text-[15px] uppercase hover:text-darkBrown px-3 py-2 text-lg transition-colors duration-1000 delay-50 
             {{ is_current ?= 'text-darkGreen font-bold' }} ">{{ title }}</a>
             {{ /nav:collection:pages }}
         </div>
