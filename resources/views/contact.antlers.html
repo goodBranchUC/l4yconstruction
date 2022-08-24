@@ -63,28 +63,108 @@
           </dl>
           <p class="mt-6 text-base text-clrLightApricot ">
             Looking for careers?
-            <a href="#" class="font-medium text-clrLightApricot  underline">View all job openings</a>.
+            <a href="#" class="font-Poppins text-base text-clrLightApricot underline">View all job openings</a>.
           </p>
         </div>
       </div>
       <div class="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
         <div class="max-w-lg mx-auto lg:max-w-none">
           <!-- <form action="#" method="POST" class="grid grid-cols-1 gap-y-6"> -->
-            <div>
-              <label for="full-name" class="sr-only">Full name</label>
-              <input type="text" name="name" value="{{ name }}" class="block mb-3 w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md " placeholder="Full name">
+            <div class="relative">
+              
+              <input 
+                  type="text" 
+                  name="name" 
+                  value="{{ name }}" 
+                  class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 
+                  placeholder-transparent focus:outline-none focus:border-clrNiceGray" 
+                  placeholder="Full name">
+              <label 
+                  for="full-name" 
+                  class="absolute left-0 -top-5 
+                  peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 
+                  text-gray-600 transition-all 
+                  peer-placeholder-shown:top-2 
+                  peer-focus:-top-5 
+                  peer-focus:text-gray-600 
+                  peer-focus:text-small text-sm">Full name</label>
+        </div>
+            <div class="relative mt-6">
+             
+              <input 
+                  type="text" 
+                  name="name" 
+                  value="{{ name }}" 
+                  class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 
+                  placeholder-transparent focus:outline-none focus:border-clrNiceGray" 
+                  placeholder="Email">
+              <label 
+                  class="absolute left-0 -top-5 
+                  peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 
+                  text-gray-600 transition-all 
+                  peer-placeholder-shown:top-2 
+                  peer-focus:-top-5 
+                  peer-focus:text-gray-600 
+                  peer-focus:text-small text-sm">Email address</label>
             </div>
-            <div>
-              <label for="email" class="sr-only">Email</label>
-              <input type="text" name="email" value="{{ email }}" class="block mb-3 w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md" placeholder="Email">
+            <div class="relative mt-6">
+
+              <input 
+                  type="text" 
+                  name="name" 
+                  value="{{ name }}" 
+                  class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 
+                  placeholder-transparent focus:outline-none focus:border-clrNiceGray" 
+                  placeholder="Phone">
+              <label 
+                  class="absolute left-0 -top-5 
+                  peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 
+                  text-gray-600 transition-all 
+                  peer-placeholder-shown:top-2 
+                  peer-focus:-top-5 
+                  peer-focus:text-gray-600 
+                  peer-focus:text-small text-sm">Phone</label>
             </div>
-            <div>
-              <label for="phone" class="sr-only">Phone</label>
-              <input type="text" name="phone" value="{{ contact }}" class="block mb-3 w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md" placeholder="Phone">
+            <div class="relative mt-6">
+              
+              <input 
+                  type="text" 
+                  name="name" 
+                  value="{{ name }}" 
+                  class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 
+                  placeholder-transparent focus:outline-none focus:border-clrNiceGray" 
+                  placeholder="Job site addrees">
+              <label                  
+                  class="absolute left-0 -top-5 
+                  peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 
+                  text-gray-600 transition-all 
+                  peer-placeholder-shown:top-2 
+                  peer-focus:-top-5 
+                  peer-focus:text-gray-600 
+                  peer-focus:text-small text-sm">Job site address</label>
             </div>
-            <div>
-              <label for="message" class="sr-only">Message</label>
-              <textarea type="text" name="job_description" value="{{ job_description }}"  class="block mb-3 w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border border-gray-300 rounded-md" placeholder="Message"></textarea>
+            <div class="relative mt-6">
+              
+              <input 
+                  type="text" 
+                  name="name" 
+                  value="{{ name }}" 
+                  class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 
+                  placeholder-transparent focus:outline-none focus:border-clrNiceGray" 
+                  placeholder="Job site zip code">
+              <label                  
+                  class="absolute left-0 -top-5 
+                  peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 
+                  text-gray-600 transition-all 
+                  peer-placeholder-shown:top-2 
+                  peer-focus:-top-5 
+                  peer-focus:text-gray-600 
+                  peer-focus:text-small text-sm">Job site zip code</label>
+            </div>
+            <div class="relative mt-12">
+             
+              <textarea type="text" name="job_description" value="{{ job_description }}"  class="peer block mb-3 w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border border-gray-300 rounded-md" placeholder="Description"></textarea>
+              <label for="message" class=""></label>
             </div>
             <div>
               <button class="inline-flex justify-center py-3 px-6 border border-transparent rounded-md shadow-sm text-base font-medium rounded-mddrop-shadow-lg transition-colors duration-1000 delay-75 text-white bg-[#264027] hover:bg-[#A78C51] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Submit</button>
