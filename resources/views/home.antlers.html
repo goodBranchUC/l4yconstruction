@@ -1,7 +1,7 @@
 <!--hero-->
 <section id="hero" class="mt-[4rem]">
   <div class="relative bg-clrForestGreen overflow-hidden lg:pr-16">
-    <div class="container bg-clrForestGreen lg:absolute mx-auto lg:pr-6 lg:inset-y-0 lg:left-0 lg:w-2/5">
+    <div class="container bg-clrForestGreen lg:absolute mx-auto lg:pr-6 lg:inset-y-0 lg:left-0 lg:w-1/2">
       <!-- <img class="h-56 w-full object-cover opacity-30 sm:h-72 md:h-96 lg:w-full lg:h-full" src="{{ heroleft:url }}" alt=""> -->
       
       </div>
@@ -11,13 +11,13 @@
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
      -->
-              <div>
+          <div>
               <div class="relative pt-6 px-0 border-0 sm:px-0">
               
               </div>
       
-              <main class="mt-10 max-w-[100rem] pl-[130px] mx-0 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                <div class="sm:text-center lg:text-left">
+              <main class="mt-10 max-w-[95rem] justify-center items-center mx-0 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                <div class="text-center justify-center items-center sm:text-center lg:text-left">
                   <h1 class="text-[58px] text-white max-w-[526px]
                    sm:text-5xl md:text-6xl">
                     <span class="block xl:inline font-GreatVibes">{{ main_content }}</span>
@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-      <div class="lg:absolute lg:inset-y-0 border-0 lg:right-0 lg:w-3/5">
+      <div class="lg:absolute lg:inset-y-0 border-0 lg:right-0 lg:w-1/2">
           <img class="h-56 w-full object-cover border-0 px-0 -mtl-px sm:h-72 md:h-96 lg:w-full lg:h-full" src="{{ hero:url }}" alt="">
           <div class="absolute inset-0 bg-gradient-to-br from-bg-white to-transparent opacity-5"></div>
           <!-- <div class="bg-white">
@@ -66,39 +66,33 @@
 
 <!-- content -->
 
-<section id="content">
-  <div class="bg-amber-50 py-12 pb-20 overflow-hidden">
-      <div class="max-w-[100rem] mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
-        <br>
-        <div class="text-base max-w-prose mx-auto lg:max-w-none">
-            
-            <p class="mt-2 text-[33px] text-clrMedBrown leading-8 font-extrabold font-Martel tracking-tight text-lightBrown sm:text-4xl">What makes us different</p>
-        </div>
-        <div class="relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
-            <p class="text-[17px] font-Poppins text-clrForestGreen">For every project to be successful, we strive to build positive relationships with our clients, subcontractors, and suppliers. Our goal is to help our customers achieve their goals through quality craftsmanship... from start to finish. We give personal attention to many of the details and in many cases provide a personal touch as a trademark of our business. </p>
-        </div>
-        <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
-          <div class="relative z-10">
-            <div class="text-[17px] font-Poppins mx-auto lg:max-w-none">
-                <p>We strive to provide exceptional service from a talented, high-energy team of knowledgeable, dependable professionals who are passionate about the business. We have a strong background in residential and commercial construction, repair, and renovation.
-
-                  Owned and oprated since 2002 but have done this for over 40 years and have built our reputation on quality craftsmanship, competitive pricing and outstanding customer service.
-                  
-                  Our team has been working together for 20 years; we have the experience necessary to complete any project big or small. </p>
-            </div>
-          </div>
-          
-        </div>
+<section id="content" class="bg-clrLightApricot ">
+  <div class="container flex flex-col md:flex-row items-center px-6 mx-auto pt-[20px] space-y-0 md:space-y-0 md:max-w-[96rem]">
+    <!-- left -->
+    <div class="flex flex-col mb-26 space-y-12 md;p-10 md:w-1/2 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-5">
+      <p class="mt-2 text-[33px] text-clrMedBrown leading-8 font-extrabold font-Martel tracking-tight text-lightBrown sm:text-4xl">What makes us different</p>
+      <p class="text-[17px] font-Poppins text-clrForestGreen">For every project to be successful, we strive to build positive relationships with our clients, subcontractors, and suppliers. Our goal is to help our customers achieve their goals through quality craftsmanship... from start to finish. We give personal attention to many of the details and in many cases provide a personal touch as a trademark of our business. </p>
+      <div class="text-[17px] font-Poppins mx-auto lg:max-w-none">
+        <p>We strive to provide exceptional service from a talented, high-energy team of knowledgeable, dependable professionals who are passionate about the business. We have a strong background in residential and commercial construction, repair, and renovation.
+          Owned and oprated since 2002 but have done this for over 40 years and have built our reputation on quality craftsmanship, competitive pricing and outstanding customer service.
+          Our team has been working together for 20 years; we have the experience necessary to complete any project big or small. </p>
+      </div>  
+    </div>
+    <!-- right -->
+    <div class="relative mt-[6rem] p-10 items-center justify-center md:w-1/2">
+        <img src="/assets/bathroom.jpg" class="h-[50%] object-cover object-center shrink-0  drop-shadow-[15px_15px_0px_rgba(98,146,158,1)] alt="">
       </div>
+     
+    </div>
   </div>
 </section>
 
 <!-- features -->
 <section id="features" class="z-10">
 
-  <div class="relative bg-white py-16 sm:py-24 lg:py-32">
-      <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-[100rem] lg:px-8">
-        <p class="mt-2 font-Martel font-[700] text-[33px] text-clrMedBrown tracking-tight text-lightBrown sm:text-4xl">Everything you need under one name</p>
+  <div class="bg-white pt-16 pb-8 sm:py-24 lg:py-32">
+      <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-[95rem] lg:px-8">
+        <p class="mt-2 font-Martel font-[700] text-[33px] text-clrMedBrown sm:text-4xl">Everything you need under one name</p>
         <p class="mx-auto mt-5 max-w-prose font-Poppins font-[500] text-[14px] text-clrForestGreen"> We are a full service general contractor. Our goal is to complete your project in a safe, expedited and professional manner.</p>
         
         <!-- cards -->
@@ -114,7 +108,7 @@
                   <div>
                     <span class="inline-flex items-center justify-center rounded-md bg-clrNiceGray p-3 shadow-lg">
                   
-                      {{ svg src="{icon}" class="h-6 w-6" fill="white" }}
+                      {{ svg src="{icon}" class="h-6 w-6" fill="white" style="color: {color}"}}
                    
                     </span>
                   </div>

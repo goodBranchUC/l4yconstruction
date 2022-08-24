@@ -1,0 +1,29 @@
+<!-- page section -->
+<section id="hero">
+  <!-- hero -->
+  <div class="flex w-full items-center justify-center mb-10 mt-[4rem] bg-clrLightApricot h-[50%]" >
+    <!-- flex container -->
+    <div class="flex flex-col w-full rounded-t-md md:flex-row items-center justify-center mx-auto space-y-0 md:space-y-0 h-[40rem]">
+      <!-- left -->
+      <div class="flex static w-[100%] mx-[10px] md:shrink-0 sm:w-[100%] sm:mx-[10px] md:w-1/2 bg-white box-border h-full object-cover rounded-lg">
+        <img src="{{ hero:url }}" alt="" class="object-cover rounded-lg" />
+      </div>
+      <!-- right -->
+      <div class="flex w-[90%] rounded-b-md sm:w-[100%] sm:mx-[10px] md:-ml-[10rem] bg-clrForestGreen opacity-95 p-8 rounded-lg drop-shadow-2xl">
+        <div class="items-center justify-center">
+          <h1 class="font-bold text-white pb-3 font-serif text-3xl md:text-2xl md:pb-1 md:pt-px">
+          {{ title }}
+        </h1>
+        <h2 class="font-semibold text-zinc-200 text-2xl pb-3 md:p-3 md:text-lg">
+          {{ main_content }}
+        </h2>
+        <p class="font-semibold text-orange-300 text-xl pb-3 md:text-lg md:p-1">
+          {{ sub_content }}
+        </p>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
