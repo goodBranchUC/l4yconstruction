@@ -1,16 +1,39 @@
-<nav class="relative container max-w-[95rem] mx-auto h-[105px]">
+<nav class="relative container max-w-[95rem] mx-auto max-h-[105px]">
     <!-- flex contaner -->
-    <div class="flex items-center justify-between">
+    <div class="flex sm:items-center justify-between">
         <div class="pt-2">
-            <img class="h-[12rem] pt-4 w-auto" src="assets/logo-hero.png" alt="l4yconstruction">
+            <img class="h-[6rem] pt-2 w-auto sm:h-[8rem]" src="/assets/logo-hero.png" alt="l4yconstruction">
         </div>
         <!-- menu -->
-        <div class="hidden md:flex space-x-[79px] pr-6">
+        <div class="hidden sm:flex sm:space-x-12 lg:space-x-[79px] pr-6">
             {{ nav:collection:pages include_home="true" }}
-            <a href="{{ url }}" class="text-clrForestGreen from-left border border-solid border-x-0 border-y-clrMedBrown
+            <a href="{{ url }}" class="text-clrMedBrown font-[100] text-[12px]  border border-solid border-x-0 border-y-clrNiceGray
             px-3 py-2 
-            {{ is_current ?= 'font-bold' }} ">{{ title }}</a>
+            {{ is_current ?= 'font-semibold text-clrForestGreen' }} ">{{ title }}</a>
             {{ /nav:collection:pages }}
+                 <!-- hamburger -->
+        <button id="menu-btn" class="block md:hidden focus:outline-none">
+            <span class="hamburger-top">
+
+            </span>
+            <span class="hamburger-middle">
+
+            </span>
+            <span class="hamburger-bottom">
+
+            </span>
+        </button> 
+        </div>
+  
+           <!-- menu -->
+    <div class="md:hidden">
+        <div id="menu" class="absolute flex flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto left-6 right-6 drop-shadow-md z-50 md:block">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
         </div>
     </div>
+    </div>
+ 
 </nav>

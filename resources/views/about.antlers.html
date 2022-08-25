@@ -3,19 +3,18 @@
 
   {{ partial:layout/heros }}
 
-  <div class="flex fex-col-reverse p-2 max-w-[95rem] item justify-center mx-auto bg-white">
-      <div class="flex p-4 my-8 w-full mx-12 m-w-1/2">
-       <img src="assets/normslake.jpg" class="items-center justify-center object-cover h-[553px] drop-shadow-[15px_15px_0px_rgba(98,146,158,1)]" alt="">
+  <div class="container flex flex-col-reverse space-y-0 p-2 max-w-[95rem] items-center justify-center mx-auto bg-white lg:flex-row">
+      <div class=" p-4 my-8 w-full mx-12">
+       <img src="assets/normslake.jpg" class="items-center justify-center object-cover h-[553px] drop-shadow-[18px_18px_0px_rgba(98,146,158,1)]" alt="">
       </div>
-      <div class="flex p-4 my-12 w-full mx-12 h-[561px] m-w-1/2 bg-clrForestGreen">
-        <h2 class="font-Martel font-[700] text-clrLightApricot leading-[34px] text-[21px] p-8">
+      <div class=" p-6 my-12 w-full mx-12 bg-clrForestGreen lg:mt-[64px]">
+        <h2 class="font-Martel font-[300] text-[16px] sm:font-[700] text-clrLightApricot sm:leading-[34px] sm:text-[21px] sm:p-4 lg:font-[200] lg:text-[15px]">
 
           {{ main_content }} 
           <br><br> 
           {{ sub_content }}
 
         </h2>
-
       </div>
     </div>
 </section>
