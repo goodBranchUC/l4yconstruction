@@ -38,13 +38,14 @@ body {
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
+    position: absolute;
     top: 0;
     left: 0;
     width: 24px;
     height: 2px;
     background-color: #000;
-    position: absolute;
-    transform: all 0.5s;
+    transform: rotate(0deg);
+    transition: all 0.5s;
 }
 
 .hamburger-bottom {
@@ -71,3 +72,20 @@ body {
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
+#hamburger-1.is-active .line:nth-child(2){
+    opacity: 0;
+  }
+  
+  #hamburger-1.is-active .line:nth-child(1){
+    -webkit-transform: translateY(13px) rotate(45deg);
+    -ms-transform: translateY(13px) rotate(45deg);
+    -o-transform: translateY(13px) rotate(45deg);
+    transform: translateY(13px) rotate(45deg);
+  }
+  
+  #hamburger-1.is-active .line:nth-child(3){
+    -webkit-transform: translateY(-13px) rotate(-45deg);
+    -ms-transform: translateY(-13px) rotate(-45deg);
+    -o-transform: translateY(-13px) rotate(-45deg);
+    transform: translateY(-13px) rotate(-45deg);
+  }

@@ -45,12 +45,34 @@ sections:
           validate:
             - required
       -
+        handle: site_address
+        field:
+          input_type: text
+          antlers: false
+          display: 'Job site address'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: site_zip_code
+        field:
+          input_type: text
+          antlers: false
+          display: 'Job site zip code'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: message
         field:
           input_type: text
           character_limit: 300
           antlers: false
-          display: Message
+          display: Description
           type: text
           icon: text
           listable: hidden
