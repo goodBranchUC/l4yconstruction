@@ -67,7 +67,7 @@ sections:
           instructions_position: above
           visibility: visible
       -
-        handle: message
+        handle: job_description
         field:
           input_type: text
           character_limit: 300

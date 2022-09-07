@@ -7,7 +7,9 @@
         <!-- menu -->
         <div class="hidden sm:flex sm:space-x-12 lg:space-x-[79px] pr-6">
             {{ nav:collection:pages include_home="true" }}
-            <a href="{{ url }}" class="text-clrMedBrown font-[300] text-[12px] pl-4 uppercase tracking-tighter sm:tracking-tighter md:tracking-[.25rem] border border-solid border-x-0 border-y-clrNiceGray
+            <a href="{{ url }}" class=" font-[300] text-[12px] pl-4 uppercase tracking-tighter 
+            transition-colors duration-900 delay-50 text-clrMedBrown hover:text-clrForestGreen hover:font-[400]
+            sm:tracking-tighter md:tracking-[.25rem] border border-solid border-x-0 border-y-clrNiceGray
             px-3 py-2 
             {{ is_current ?= 'font-semibold text-clrForestGreen' }} ">{{ title }}</a>
             {{ /nav:collection:pages }}

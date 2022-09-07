@@ -13,6 +13,9 @@ preferences:
     -
       name: 'Project Blueprint'
       url: collections/projects/blueprints/projects/edit
+    -
+      name: 'ADD PROJECT'
+      url: collections/pages
   collections:
     pages:
       after_save: continue_editing
