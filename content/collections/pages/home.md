@@ -4,7 +4,7 @@ blueprint: pages
 title: Home
 template: home
 updated_by: b141494b-e83e-47e7-9764-f2f9777af861
-updated_at: 1662063783
+updated_at: 1662787981
 features:
   -
     title: Work
@@ -21,8 +21,8 @@ features:
     desc: 'We love to help those who need renovations to fit specific needs.'
     icon: svg/ada.svg
     color: '#FFFFFF'
-logo: logo-hero.png
-hero: untitled-(3).jpg
+logo: logo-hero.webp
+hero: norm_large_commercial_construction_70_1_67.webp
 shape: polygon-small.png
 main_content: 'With an emphasis on quality, and punctuality.'
 sub_content: 'We build, renovate, and repair any residential, commercial or government space.'

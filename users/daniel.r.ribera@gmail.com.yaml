@@ -1,7 +1,7 @@
 name: Daniel
 super: true
 id: b141494b-e83e-47e7-9764-f2f9777af861
-password_hash: $2y$10$sEe1hve3Zj1m0N8jSJQvmewn.s129N/H8lMHd2eLxxDGD9QrdWn86
+password_hash: $2y$10$1CbUiMHhEZOuQqJ0J5uOa.HOrdvEOqkPzDBeNdoJvCXmrYafsCKpS
 preferences:
   favorites:
     -
@@ -24,3 +24,5 @@ preferences:
         - title
         - slug
         - feature_photo
+        - meta_title
+      after_save: continue_editing
